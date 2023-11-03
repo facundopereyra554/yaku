@@ -1,0 +1,34 @@
+* {
+    list-style: none;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-info {
+    display: flex;
+    align-items: center;
+}
+
+.list-pages {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+}
+
+.list-pages > li {
+    margin: 20px;
+}
+
+.list-pages > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+.icon {
+    height: 30px;
+    width: 23px;
+}
