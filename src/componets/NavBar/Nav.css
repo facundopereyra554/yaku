@@ -2,6 +2,13 @@
     list-style: none;
 }
 
+.navF {
+    background-color: white;
+    box-shadow: -1px 7px 26px -5px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 7px 20px -11px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 7px 26px -5px rgba(0, 0, 0, 0.75);
+}
+
 .navContainer {
     display: flex;
     justify-content: space-between;
@@ -26,9 +33,30 @@
 .list-pages > li > a {
     text-decoration: none;
     color: black;
+    transition: 0.3s;
+}
+
+.link:hover {
+    color: #ff9835 !important;
+    transition: 0.3s;
 }
 
 .icon {
     height: 30px;
     width: 23px;
+}
+
+.logo {
+    height: 20px;
+    margin-left: 40px;
+}
+
+.wave {
+    height: 70px;
+}
+
+@media (max-width: 760px) {
+    .logo {
+        display: none;
+    }
 }

@@ -1,0 +1,28 @@
+.gridCarrousel {
+    display: flex;
+    flex-direction: row;
+    align-items: end;
+}
+
+.infoCard {
+    height: 100%;
+    padding: 50px;
+}
+
+.infoCard > img {
+    width: 70px;
+    margin-bottom: 40px;
+}
+
+.infoCard > h3 {
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.titleD {
+    margin-bottom: 20px;
+}
+
+.titleE {
+    margin-bottom: 33px;
+}

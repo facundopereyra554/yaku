@@ -3,19 +3,37 @@ import "./Nav.css";
 function Nav() {
     return (
         <>
-            <div className="container-fluid">
+            <div className="container-fluid navF">
                 <div className="container navContainer">
-                    <img src="../src/assets/wave.png" alt="wave" />
+                    <div>
+                        <img
+                            className="wave"
+                            src="../src/assets/wave.png"
+                            alt="wave"
+                        />
+                        <img
+                            className="logo"
+                            src="../src/assets/YakuLogo.png"
+                            alt="logo"
+                        />
+                    </div>
+
                     <div className="navbar-info">
                         <ul className="list-pages">
                             <li>
-                                <a href="#">Inicio</a>
+                                <a className="link" href="#">
+                                    Inicio
+                                </a>
                             </li>
                             <li>
-                                <a href="#">Catálogo</a>
+                                <a className="link" href="#">
+                                    Catálogo
+                                </a>
                             </li>
                             <li>
-                                <a href="#">Contacto</a>
+                                <a className="link" href="#">
+                                    Contacto
+                                </a>
                             </li>
                             <li className="icon">
                                 <a href="#">
